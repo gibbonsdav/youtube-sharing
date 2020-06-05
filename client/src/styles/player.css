@@ -1,0 +1,115 @@
+.videoWrapper {
+  width: 1200px;
+  height: 900px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  background-color: cornflowerblue;
+  position: relative;
+  top: 50px;
+}
+
+h2 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: darkblue;
+  color: white;
+}
+
+.videoicon {
+  font-size: 20px;
+  position: relative;
+  top: 6.5px;
+}
+
+#instructionBox {
+  padding-left: 10px;
+  color: white;
+}
+
+.hideButton {
+  margin-top: 10px;
+  margin-left: 0px;
+  padding: 0px;
+  background-color: black;
+  border: none;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  left: 1130px;
+  bottom: 0px;
+}
+
+.hideButton:focus {
+  outline: none;
+}
+
+.ghostie {
+  color: white;
+  font-size: 30px;
+}
+
+.youtubeUrlForm {
+  margin: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 35px;
+}
+
+#userUrl {
+  height: 25px;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: transparent;
+  font-size: 16px;
+  position: relative;
+  bottom: 1px;
+  color: white;
+}
+
+#userUrl::placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+#userUrl:focus {
+  outline: none;
+}
+
+.submitButton {
+  background-color: darkblue;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  position: relative;
+  bottom: 1px;
+  left: 10px;
+}
+
+.submitButton:focus {
+  outline: none;
+}
+
+.youTube {
+  display: flex;
+  justify-content: center;
+}
+
+.videoPlayer {
+  background-image: url(https://i.pinimg.com/originals/d1/c9/ea/d1c9eacae6968ea4fb00470952927d41.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 700px;
+  height: 500px;
+}

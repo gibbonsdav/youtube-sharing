@@ -1,0 +1,27 @@
+.share {
+  display: flex;
+  align-items: center;
+}
+
+.shareButtons {
+  margin: 0px 5px;
+}
+
+.phoneNumberInput {
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 80px;
+}
+
+.sendTXTButton {
+  height: 20px;
+  width: 26px;
+  display: contents;
+  cursor: pointer;
+}
+
+.envelopeIcon {
+  font-size: 18px;
+}
