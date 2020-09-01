@@ -1,0 +1,28 @@
+img {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 14px;
+}
+
+header {
+  display: flex;
+}
+
+.wetubeTitle {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-family: monospace;
+  position: relative;
+  left: 58px;
+  bottom: 5px;
+}
+
+.roomId {
+  position: relative;
+  top: 50px;
+  right: 247px;
+  font-weight: lighter;
+}

@@ -1,0 +1,5 @@
+export const SET_USER_URL = "player/SET_USER_URL"
+export const PLAY_VIDEO = "plauer/PLAY_VIDEO"
+export const PAUSE_VIDEO = "plauer/PAUSE_VIDEO"
+export const FF_VIDEO = "plauer/FF_VIDEO"
+export const RWD_VIDEO = "plauer/RWD_VIDEO"
