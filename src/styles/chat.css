@@ -1,7 +1,7 @@
 .chatComponent {
   height: 900px;
   width: 400px;
-  background-color: cornflowerblue;
+  background-color: black;
   position: relative;
   bottom: 869px;
   left: 1241px;
@@ -13,7 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: darkblue;
+  background-color: black;
   color: white;
   padding: 15px;
   top: -9px;
@@ -38,7 +38,7 @@
 .messageBox {
   height: 125px;
   width: 400px;
-  background-color: darkblue;
+  background-color: black;
   position: relative;
   top: 84px;
   right: 1px;
